@@ -1,10 +1,12 @@
 import BannerDetails from "./components/bannerdetails/BannerDetails"
 import Blogs from "./components/blogs/Blogs"
+import ContactUs from "./components/contact -us/ContactUs"
 import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero"
-import Hero1 from "./components/hero/Hero1"
 import Navbar from "./components/navbar/Navbar"
 import OverViewCounter from "./components/overviewcounter/OverViewCounter"
+import Projects from "./components/projects/Projects"
+import Services from "./components/services/Services"
 import SimpleBanner from "./components/simplebanner/SimpleBanner"
 
 function App() {
@@ -16,8 +18,11 @@ function App() {
         <OverViewCounter />
         <BannerDetails reverse={true} />
         <BannerDetails reverse={false} />
+        <Projects />
         <SimpleBanner />
+        <Services />
         <Blogs/>
+        {/* <ContactUs /> */}
         <Footer />
     </div>
     </>

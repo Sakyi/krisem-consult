@@ -99,39 +99,40 @@ const handleMenuToggle = () => {
                                     <img src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Not Found" className='max-h-[300px] w-full rounded-b-3xl object-fill' />
                                 </div>
                                 <div className="col-span-2">
-                    <h1 className="pb-3 text-xl font-semibold">Best Selling</h1>
+                    <h1 className="pb-3 text-xl font-semibold">Get All Your Construction Needs Here</h1>
                     <p className="text-sm text-slate-600">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Aspernatur exercitationem delectus iusto animi aperiam
-                      deleniti reprehenderit doloribus, numquam corporis quae.
+                    Welcome to our comprehensive guide on the various types of construction services available in today’s dynamic and diverse construction industry. Whether you’re planning a small home renovation, a major commercial development, or something in between, understanding the array of services that construction companies provide can empower you to make more informed decisions and ultimately ensure the success of your project.
                     </p>
                     <div className="grid grid-cols-3 ">
                       <ul className="mt-3 flex flex-col gap-2">
                         <h1 className="pb-1 text-xl font-semibold">
-                          Development
+                       Our Services
                         </h1>
                         <li className="cursor-pointer text-black/80 hover:text-secondary">
-                          Web development
+                        Construction & Contracting
                         </li>
                         <li className="cursor-pointer text-black/80 hover:text-secondary">
-                          IOS App Development
+                        Design and Engineering
                         </li>
                         <li className="cursor-pointer text-black/80 hover:text-secondary">
-                          App Development
+                        Infrastructure Development
+                        </li>
+                        <li className="cursor-pointer text-black/80 hover:text-secondary">
+                        Project Management
                         </li>
                       </ul>
                       <ul className="mt-3 flex flex-col gap-2">
                         <h1 className="pb-1 text-xl font-semibold">
-                          Other Services
+                          Other Related Services
                         </h1>
                         <li className="cursor-pointer text-black/80 hover:text-secondary">
-                          Cloud Services
+                        Civil Construction Services
                         </li>
                         <li className="cursor-pointer text-black/80 hover:text-secondary">
-                          Mobile App
+                        House Construction Services
                         </li>
                         <li className="cursor-pointer text-black/80 hover:text-secondary">
-                          App Development
+                        Residential Construction Services
                         </li>
                       </ul>
                       <div>
