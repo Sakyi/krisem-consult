@@ -1,3 +1,4 @@
+import React from "react"
 import BannerDetails from "./components/bannerdetails/BannerDetails"
 import Blogs from "./components/blogs/Blogs"
 import ContactUs from "./components/contact -us/ContactUs"
@@ -8,13 +9,21 @@ import OverViewCounter from "./components/overviewcounter/OverViewCounter"
 import Projects from "./components/projects/Projects"
 import Services from "./components/services/Services"
 import SimpleBanner from "./components/simplebanner/SimpleBanner"
+import PopUp from "./components/popup/PopUp"
 
 function App() {
+
+const [orderPopup, setOrderPopUp] = React.useState(false);
+
+const handleOrderPopup = () => {
+  setOrderPopUp(!orderPopup)
+}
+
   return (
     <>
     <div className="dark:bg-gray-900 bg-white">
         <Navbar />
-        <Hero />
+        <Hero handleOrderPopup={handleOrderPopup} />
         <OverViewCounter />
         <BannerDetails reverse={true} />
         <BannerDetails reverse={false} />
@@ -22,7 +31,7 @@ function App() {
         <SimpleBanner />
         <Services />
         <Blogs/>
-        {/* <ContactUs /> */}
+        <PopUp orderPopup={orderPopup} setOrderPopUp={setOrderPopUp} />
         <Footer />
     </div>
     </>

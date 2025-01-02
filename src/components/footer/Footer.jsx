@@ -15,22 +15,21 @@ const Footer = () => {
         <div className=" px-4 py-8 ">
           <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
             <a href="/#home" className="">
-              KRT
-              <span className="inline-block font-bold text-secondary">CONSULT</span>
+              KRI
+              <span className="inline-block font-bold text-secondary">SEM</span>
             </a>
           </h1>
           <p className="">
-            Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Possimus, voluptate.{" "}
+          At KRI<span className="inline-block text-secondary">SEM</span>, we are committed to sustainable practices that minimize environmental impact while delivering exceptional results. We incorporate sustainability into every project to ensure a greener future for all.{" "}
           </p>
           <br />
           <div className="flex items-center gap-3">
             <FaLocationArrow />
-            <p>Noida, Uttar Pradesh</p>
+            <p>Spintex, Norman Road</p>
           </div>
           <div className="mt-3 flex items-center gap-3">
             <FaMobileAlt />
-            <p>+91 123456789</p>
+            <p>+233 549817061</p>
           </div>
           {/* Social Handle */}
         </div>

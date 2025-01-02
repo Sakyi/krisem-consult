@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from "../../assets/undraw_under-construction_c2y11.svg";
 
-const Hero = () => {
+const Hero = ({handleOrderPopup}) => {
   return (
     <div className="h-[650px] md:h-[500px] bg-gradient-to-r from-blue-950 to-blue-900 pt-20 dark:bg-blue-950">
       <section className="container flex flex-col items-center justify-between px-2 py-6">
@@ -14,14 +14,15 @@ const Hero = () => {
             // data-aos-once="true"
             className="flex flex-col items-center gap-4 text-center text-white md:items-start md:text-left "
           >
-            <h1 className=" text-4xl ">
-            WELCOME TO <span className='text-secondary'>KRISEM CONSULT</span> Building Excellence, Creating Value
+            <h1 className=" text-4xl font-bold ">
+            WELCOME TO <span className='text-secondary'>KRISEM CONSULT</span>
             </h1>
-            <p className="text-sm">
+            <h4 className='text-md text-gray-300'>Building Excellence, Creating Value</h4>
+            <p className="text-base">
              At Krisem, we transform visions into reality. With years of expertise in construction and project management, we deliver top-notch solutions for residential, commercial, and industrial projects. From concept to completion, our commitment to quality, safety, and sustainability stands out in every project we undertake.
             </p>
             <div className="space-x-4">
-              <button className="btn-primary">
+              <button className="btn-primary" onClick={handleOrderPopup}>
                 Get Started
               </button>
               <button className="btn-outline">
